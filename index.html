@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        />
         <link rel="stylesheet" href="style.css" />
         <title>edie homepage</title>
     </head>
@@ -11,7 +15,9 @@
         <header id="header">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand mx-3" href="#">
+                        <h3>Edie</h3>
+                    </a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -28,21 +34,21 @@
                         id="navbarNav"
                     >
                         <ul class="navbar-nav">
-                            <li class="nav-item">
+                            <li class="nav-item px-3">
                                 <a class="nav-link" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item px-3">
                                 <a class="nav-link" href="#">Services</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item px-3">
                                 <a class="nav-link text-capitalize" href="#"
                                     >Our works</a
                                 >
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item px-3">
                                 <a class="nav-link" href="#">Clients</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item px-3">
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
                         </ul>
@@ -50,6 +56,288 @@
                 </div>
             </nav>
         </header>
+        <main id="main">
+            <section class="container mt-5">
+                <article>
+                    <h6 class="text-primary">Unhappy with your website?</h6>
+                    <h1>
+                        We create beautiful <br />
+                        and fast web services
+                    </h1>
+                </article>
+                <figure>
+                    <img
+                        src="./Images/heroImage.jpg"
+                        class="img-fluid rounded-3 my-3"
+                        alt=""
+                    />
+                </figure>
+                <article>
+                    <h2>Story, emotion and purpose</h2>
+                    <p class="lead mb-3" style="width: 350px">
+                        We help transform your ideas into real world
+                        applications that will outperform your toughest
+                        competition and help you achieve your strategic goals in
+                        short period of time.
+                    </p>
+                    <small class="d-block">Want us to contact you?</small>
+                    <div class="input-group mb-3 w-50 mt-2">
+                        <input
+                            type="email"
+                            class="form-control bg-light d-block"
+                            placeholder="Email"
+                            aria-label="Email"
+                            aria-describedby="button-addon2"
+                        />
+                        <button
+                            class="btn btn-primary rounded-3"
+                            type="submit"
+                            id="button-addon2"
+                        >
+                            Join
+                        </button>
+                    </div>
+                </article>
+            </section>
+            <section id="demand" class="container">
+                <h2 class="my-5 pt-5">We offer high demand services</h2>
+                <div class="row g-md-5 g-4">
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-img-top">
+                                <i
+                                    class="fas fa-pen fa-2x bg-primary text-white rounded-3 p-3 mx-3 mt-4"
+                                ></i>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">UI/UX Design</h3>
+                                <p class="card-text lead">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Duis a metus ac nulla
+                                    consequat aliquet id quis turpis.
+                                </p>
+                                <button class="btn btn-light">
+                                    Get Started
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-img-top">
+                                <i
+                                    class="fas fa-code fa-2x bg-success text-white rounded-3 p-3 mx-3 mt-4"
+                                ></i>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Front End</h3>
+                                <p class="card-text lead">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Duis a metus ac nulla
+                                    consequat aliquet id quis turpis.
+                                </p>
+                                <button class="btn btn-light">
+                                    Get Started
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card rounded">
+                            <div class="card-img-top">
+                                <i
+                                    class="fas fa-server fa-2x bg-danger text-white rounded-3 p-3 mx-3 mt-4"
+                                ></i>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Back End</h3>
+                                <p class="card-text lead">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Duis a metus ac nulla
+                                    consequat aliquet id quis turpis.
+                                </p>
+                                <button class="btn btn-light">
+                                    Get Started
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="design" class="container">
+                <h2 class="mt-5 mb-4 pt-5">Good design means good business</h2>
+                <div class="row g-md-5 g-4" style="min-height: 800px">
+                    <div class="col-md-6 align-self-end">
+                        <img
+                            src="./Images/smarthome.jpg"
+                            class="img-fluid mb-3"
+                            alt=""
+                            style="max-height: 70vh"
+                        />
+                        <small class="d-block">Full stack application</small>
+                        <h3>Smart home dashboard</h3>
+                    </div>
+                    <div class="col-md-6 align-self-start">
+                        <img
+                            src="./Images/onboard.png"
+                            class="img-fluid mb-3"
+                            alt=""
+                            style="max-height: 70vh"
+                        />
+                        <small class="d-block">UX/UI design</small>
+                        <h3>Onboard application</h3>
+                    </div>
+                </div>
+                <div class="row g-md-5 g-3 mt-1" style="min-height: 800px">
+                    <div class="col-md-6 align-self-end">
+                        <img
+                            src="./Images/booking.png"
+                            class="img-fluid mb-3"
+                            alt=""
+                            style="max-height: 70vh"
+                        />
+                        <small class="d-block">Mobile application</small>
+                        <h3>Booking system</h3>
+                    </div>
+                    <div class="col-md-6 align-self-start">
+                        <img
+                            src="./Images/juice-product.png"
+                            class="img-fluid mb-3"
+                            alt=""
+                            style="max-height: 70vh"
+                        />
+                        <small class="d-block">Front End application</small>
+                        <h3>Juice product homepage</h3>
+                    </div>
+                </div>
+                <a
+                    href="#"
+                    class="text-decoration-none d-flex justify-content-end"
+                    >see more -></a
+                >
+            </section>
+            <section id="team" class="mt-5 py-5">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6">
+                            <h6 class="text-danger">Meet the team</h6>
+                            <h2>
+                                We are chilled <br />
+                                and a laidback <br />
+                                team
+                            </h2>
+                            <p class="lead">
+                                Lorem ipsum dolor sit amet, <br />
+                                consectetur adipiscing elit.
+                            </p>
+                        </div>
+                        <div class="col-md-6 d-flex" style="max-height: 80vh">
+                            <div class="col align-self-center">
+                                <img
+                                    src="./Images/person3.png"
+                                    class="img-fluid"
+                                    alt=""
+                                    style="width: 90vw"
+                                />
+                            </div>
+                            <div class="col align-self-center offset-1">
+                                <img
+                                    src="./Images/person1.png"
+                                    class="img-fluid"
+                                    alt=""
+                                    style="width: 35vw"
+                                />
+                                <img
+                                    src="./Images/person2.png"
+                                    class="img-fluid"
+                                    alt=""
+                                    style="width: 40vw"
+                                /><br /><br /><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="comment" class="my-5 pb-5">
+                <div class="container">
+                    <h3>
+                        “Fast and outstanding resutls. Edie understands <br />
+                        their customer’s needs. They have a young and <br />
+                        talented team.”
+                    </h3>
+                    <div class="d-flex mt-4">
+                        <div>
+                            <img
+                                src="./Images/person4.png"
+                                class="img-fluid"
+                                alt=""
+                                style="width: 80px"
+                            />
+                        </div>
+                        <div class="mx-4 mt-2">
+                            <h4>Carlos Tran</h4>
+                            <p class="lead">The Decorate Gatsby</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="bg-dark">
+            <div class="container text-white">
+                <div class="row g-5">
+                    <ul class="col-md-4">
+                        <li>Home</li>
+                        <li>Services</li>
+                        <li>Our works</li>
+                        <li>Clients</li>
+                        <li>Contact</li>
+                    </ul>
+                    <div class="col-md-4">
+                        <h3>Edie</h3>
+                        <img
+                            src="./Icons/instagram.png"
+                            class="img-fluid"
+                            alt=""
+                            style="width: 40px"
+                        />
+                        <img
+                            src="./Icons/linkedin.png"
+                            class="img-fluid"
+                            alt=""
+                            style="width: 40px"
+                        />
+                        <img
+                            src="./Icons/twitter.png"
+                            class="img-fluid"
+                            alt=""
+                            style="width: 40px"
+                        />
+                    </div>
+                    <div class="col-md-4">
+                        <small>Want us to contact you?</small>
+                        <div class="input-group mb-3 mt-2">
+                            <input
+                                type="email"
+                                class="form-control bg-light d-block"
+                                placeholder="Email"
+                                aria-label="Email"
+                                aria-describedby="button-addon2"
+                            />
+                            <button
+                                class="btn btn-primary rounded-3"
+                                type="submit"
+                                id="button-addon2"
+                            >
+                                Join
+                            </button>
+                        </div>
+                    </div>
+                    <p class="text-muted text-center mt-5">
+                        Mehedi Khan Rakib @ DevChallenges.io
+                    </p>
+                </div>
+            </div>
+        </footer>
         <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
